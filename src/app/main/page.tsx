@@ -41,7 +41,9 @@ export default function Main(){
     const fetchData = async () => {
       try {
         // const response = await fetch('http://localhost:3000/api/course');
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_PATH}/course`);
+        // const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_PATH}/course`);
+        const basePath = process.env.NODE_ENV === "production" ? '/api' : 'http://localhost:3000/api'
+        const response = await fetch(`${basePath}/course`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
