@@ -20,11 +20,13 @@ export default function Question({
   }
 
   return (
-    <div>
-      {word}
+    <div className="text-5xl text-center mb-20 mt-10">
+      <div className="text-fuchsia-500 dark:text-gray-50">
+        {word}
+      </div>
       <div>
         <input 
-          className="bg-red-500" 
+          className="border-solid border-2 border-sky-500 bg-fuchsia-100 rounded-lg mt-8 mb-11 indent-1 h-10 text-2xl" 
           type="text" 
           value={inptValue} 
           onChange={handleInputChange}
