@@ -26,24 +26,19 @@ const failedCountTotal = 3
 // }]
 
 export default function Main(){
-  const [currentMode, setCurrentMode] = useState<'question' | 'answer'>('question')
-  
-  // const [courseData, setCourseData] = useState<any[]>([]);
-  const [questionWord, setQuestionWord] = useState("");
-  const [answerWord, setAnswerWord] = useState("");
-  const [answerSoundMark, setAnswerSoundMark] = useState("");
+  const [currentMode, setCurrentMode] = useState<'loading' | 'question' | 'answer'>('loading')
 
   const failedCount = useRef(0)
   const statementIndex = useRef(0)
   const currentCourse = useRef<any>({})
+  
+  let questionWord = ""
+  let answerWord = ""
+  let answerSoundMark = ""
 
   useEffect(()=>{
     const fetchData = async () => {
       try {
-        // const response = await fetch('http://localhost:3000/api/course');
-        // const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_PATH}/course`);
-        // const basePath = process.env.NODE_ENV === "production" ? '/api' : 'http://localhost:3000/api'
-        // const response = await fetch(`${basePath}/course`);
         const response = await fetch(`/api/course`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -51,9 +46,9 @@ export default function Main(){
         const res = await response.json();
         console.log('res: ', res);
 
-        // setCourseData(res.data);
         currentCourse.current = res.data
-        updateWord()
+        setCurrentMode('question')
+        // updateWord()
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -62,16 +57,17 @@ export default function Main(){
   },[])
 
   const updateWord = ()=>{
+    if(!currentCourse.current.statements) return
+
     const { chinese, english, soundMark } = currentCourse.current.statements[statementIndex.current]
-    setQuestionWord(chinese)
-    setAnswerWord(english)
-    setAnswerSoundMark(soundMark)
+    questionWord = chinese
+    answerWord = english
+    answerSoundMark = soundMark
   }
 
   const handleToNextStatement = ()=>{
     statementIndex.current++
     setCurrentMode('question')
-    updateWord()
   }
 
   const checkValidity = (inpt: string)=>{
@@ -79,7 +75,6 @@ export default function Main(){
   }
 
   const handleCheckAnswer = (userInput: string)=>{
-    console.log('handle Check Answer')
     if(checkValidity(userInput)){
       console.log('正确')
       setCurrentMode('answer')
@@ -95,6 +90,8 @@ export default function Main(){
       }
     }
   }
+
+  updateWord()
 
   return <div>
     {currentMode === 'question' ? (
