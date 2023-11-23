@@ -18,9 +18,9 @@ const Answer = ({
     }
   }
 
-  useEffect(() => {
-    onPlaySound()
-  }, []);
+  // useEffect(() => {
+  //   onPlaySound()
+  // }, []);
 
   return (
     <div className="text-center mb-20 mt-10">
@@ -41,7 +41,7 @@ const Answer = ({
           ></path>
         </svg>
         {/* 定义一个隐藏的音频元素 */}
-        <audio src={audioSrc} ref={audioRef} /> 
+        <audio autoPlay src={audioSrc} ref={audioRef} /> 
 
         <div className="text-2xl text-slate-600">{soundmark}</div>{" "}
       </div>
