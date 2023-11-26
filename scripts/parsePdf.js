@@ -66,14 +66,14 @@ function parse(text) {
     let data = {
       chinese: "",
       english: "",
-      soundMark: "",
+      soundmark: "",
     };
     // let j = i + 1; // 再继续向下检测
 
     function run() {
       const element = textList[i];
       let chinese = "";
-      let englishAndSoundMark = "";
+      let englishAndSoundmark = "";
 
       // 检测是中文
       if (isChinese(element)) {
@@ -87,20 +87,20 @@ function parse(text) {
 
         data.chinese = chinese;
       } else {
-        englishAndSoundMark += element;
+        englishAndSoundmark += element;
         // 再继续向下检测
         while (textList[i + 1] && !isChinese(textList[i + 1])) {
-          englishAndSoundMark += " " + textList[i + 1];
+          englishAndSoundmark += " " + textList[i + 1];
           i++;
         }
         // i = j;
 
         //   - 解析 英文+音标 -> 基于 空白符 去切 遇到"/" 就说明是音标
-        const { english, soundMark } =
-          parseEnglishAndSoundMark(englishAndSoundMark);
+        const { english, soundmark } =
+          parseEnglishAndSoundmark(englishAndSoundmark);
 
         data.english = english;
-        data.soundMark = soundMark;
+        data.soundmark = soundmark;
       }
     }
     run();
@@ -120,17 +120,17 @@ function isChinese(str) {
 }
 
 // 解析 英文+音标
-function parseEnglishAndSoundMark(text) {
+function parseEnglishAndSoundmark(text) {
   console.log("text: ", text);
   const list = text.split(" ");
   console.log("list: ", list);
-  const soundMarkStartIndex = list.findIndex((t) => t.startsWith("/"));
+  const soundmarkStartIndex = list.findIndex((t) => t.startsWith("/"));
 
-  const english = list.slice(0, soundMarkStartIndex).join(" ");
-  const soundMark = list.slice(soundMarkStartIndex).join(" ");
+  const english = list.slice(0, soundmarkStartIndex).join(" ");
+  const soundmark = list.slice(soundmarkStartIndex).join(" ");
 
   return {
     english,
-    soundMark,
+    soundmark,
   };
 }

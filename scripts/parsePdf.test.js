@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { parse, parseEnglishAndSoundMark } from "./parsePdf";
+import { parse, parseEnglishAndSoundmark } from "./parsePdf";
 
 describe("parsePdf", () => {
   it("happy path", () => {
@@ -18,12 +18,12 @@ describe("parsePdf", () => {
       {
         chinese: "我",
         english: "I",
-        soundMark: "/aɪ/",
+        soundmark: "/aɪ/",
       },
       {
         chinese: "现在",
         english: "now",
-        soundMark: "/naʊ/",
+        soundmark: "/naʊ/",
       },
     ]);
   });
@@ -47,17 +47,17 @@ describe("parsePdf", () => {
       {
         chinese: "我",
         english: "I",
-        soundMark: "/aɪ/",
+        soundmark: "/aɪ/",
       },
       {
         chinese: "我需要告诉你重要的某些事",
         english: "i need to tell you something important",
-        soundMark: "/i/ /nid/ /te/",
+        soundmark: "/i/ /nid/ /te/",
       },
       {
         chinese: "现在",
         english: "now",
-        soundMark: "/naʊ/",
+        soundmark: "/naʊ/",
       },
     ]);
   });
@@ -76,28 +76,28 @@ describe("parsePdf", () => {
       {
         chinese: "现在",
         english: "now",
-        soundMark: "/naʊ/",
+        soundmark: "/naʊ/",
       },
       {
         chinese: "我；这件事",
         english: "I",
-        soundMark: "/aɪ/",
+        soundmark: "/aɪ/",
       },
     ]);
   });
 
-  describe("parse English And SoundMark", () => {
+  describe("parse English And soundmark", () => {
     it("parse simply ", () => {
-      expect(parseEnglishAndSoundMark("now /naʊ/")).toEqual({
+      expect(parseEnglishAndSoundmark("now /naʊ/")).toEqual({
         english: "now",
-        soundMark: "/naʊ/",
+        soundmark: "/naʊ/",
       });
     });
 
     it("parse multi group ", () => {
-      expect(parseEnglishAndSoundMark("now i /naʊ/ /aɪ/")).toEqual({
+      expect(parseEnglishAndSoundmark("now i /naʊ/ /aɪ/")).toEqual({
         english: "now i",
-        soundMark: "/naʊ/ /aɪ/",
+        soundmark: "/naʊ/ /aɪ/",
       });
     });
   });

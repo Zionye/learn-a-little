@@ -5,8 +5,8 @@ const Answer = ({
   soundmark,
   onToNextStatement
 }: {
-  word: string,
-  soundmark: string, 
+  word: string | undefined,
+  soundmark: string | undefined,
   onToNextStatement: ()=>void
 }) => {
   const audioSrc = `https://dict.youdao.com/dictvoice?audio=${word}&type=1`

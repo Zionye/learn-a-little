@@ -4,7 +4,7 @@ export default function Question({
   word, 
   onCheckAnswer
 }: {
-  word: string, 
+  word: string | undefined, 
   onCheckAnswer: (userInput: string)=>void
 }){
   console.log('Question 组件')
