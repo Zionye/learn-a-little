@@ -2,7 +2,7 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react"
 import Question from "@/components/Question"
 import Answer from "@/components/Answer"
-import { useCourse, useFailedCount, useActions } from "@/store/useCourse"
+import { useCourse, useFailedCount } from "@/store/useCourse"
 
 // const failedCountTotal = 3
 // const courseData = [{
