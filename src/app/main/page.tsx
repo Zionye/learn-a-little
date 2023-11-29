@@ -3,8 +3,8 @@ import { ChangeEvent, useEffect, useRef, useState } from "react"
 import Question from "@/components/Question"
 import Answer from "@/components/Answer"
 import { useCourse, useFailedCount } from "@/store/useCourse"
-import { useSession } from "next-auth/react"
-import Link from "next/link"
+// import { useSession } from "next-auth/react"
+// import Link from "next/link"
 
 // const failedCountTotal = 3
 // const courseData = [{
@@ -29,8 +29,8 @@ import Link from "next/link"
 // }]
 
 export default function Home(){
-  const { data: session } = useSession()
-  console.log('useSession session: ---> ', session);
+  // const { data: session } = useSession()
+  // console.log('useSession session: ---> ', session);
 
   const [currentMode, setCurrentMode] = useState<'loading' | 'question' | 'answer'>('question')
 
@@ -60,15 +60,15 @@ export default function Home(){
     }
   }
 
-  if(!session){
-    return (
-      <div>
-        <Link href="/api/auth/signin">
-          Sign in with GitHub
-        </Link>
-      </div>
-    )
-  }
+  // if(!session){
+  //   return (
+  //     <div>
+  //       <Link href="/api/auth/signin">
+  //         Sign in with GitHub
+  //       </Link>
+  //     </div>
+  //   )
+  // }
 
   return (
     <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-10 h-96 mt-40">
