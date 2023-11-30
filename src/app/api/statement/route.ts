@@ -26,12 +26,12 @@
 // }
 
 
-import type { NextApiRequest, NextApiResponse } from "next";
+// import type { NextApiRequest, NextApiResponse } from "next";
 // import { PrismaClient } from '@prisma/client';
 // const prisma = new PrismaClient();
 import prisma from "~/lib/prismadb";
 
-export async function GET(req: NextApiRequest, res: NextApiResponse) {
+export async function GET(req: Request) {
     const statements = await prisma.statement.findMany();
     return Response.json({statue: 1, data: statements})
 }
