@@ -25,7 +25,7 @@ export const useCourse = create<State>((set, get)=>({
   async fetchCourse(){
     // 拉取后端数据
     try {
-      const response = await fetch(`/api/course`);
+      const response = await fetch(`/api/course-pdf`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
