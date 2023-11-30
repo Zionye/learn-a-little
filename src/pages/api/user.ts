@@ -1,4 +1,4 @@
-import prisma from '../../../lib/prisma'
+import prisma from '~/lib/prismadb'
 import type { GetStaticProps, NextApiRequest, NextApiResponse } from "next";
 
 export default async function GET(req: NextApiRequest, res: NextApiResponse) {
