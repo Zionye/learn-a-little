@@ -25,7 +25,14 @@ export const useCourse = create<State>((set, get)=>({
   async fetchCourse(){
     // 拉取后端数据
     try {
-      const response = await fetch(`/api/course-pdf`);
+      // 从 pdf.json 获取数据
+      // const response = await fetch(`/api/course-pdf`);
+
+      // TODO 先写死第一课的 courseId
+      // 后续需要基于 courses 来获取
+      const firstCourseId = 'clpquf3wc0000ph7gwywpm4d8'
+      const response = await fetch(`/course/${firstCourseId}/api`);
+
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

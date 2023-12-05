@@ -40,21 +40,8 @@ export default function Home(){
 
   // const currentStatement = getCurrentStatement()
 
-
-  const getData = async () =>{
-    try {
-      const res = await fetch('/api/statement')
-      const data = await res.json()
-      console.log('data: ', data);
-
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  }
-
   useEffect(() => {
     fetchCourse()
-    getData()
   }, []);
 
   const handleToNextStatement = ()=>{
