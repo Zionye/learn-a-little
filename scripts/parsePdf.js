@@ -2,20 +2,39 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 
-function main() {
-  // let dataBuffer = fs.readFileSync("./01.pdf");
-  const filePath = path.join(__dirname, "01.pdf");
+(async () => {
+  // 读取 pdf 中的所有文件
+  const courseFiles = fs
+    .readdirSync("./pdf")
+    .filter((fileName) => {
+      return !fileName.startsWith(".");
+    })
+    .map((fileName) => {
+      return fileName.replace(".pdf", "");
+    });
+
+  for (const courseFile of courseFiles) {
+    main(courseFile);
+  }
+})();
+
+function main(courseFileName) {
+  console.log("__dirname: ", __dirname);
+  const filePath = path.join(__dirname, `pdf/${courseFileName}.pdf`);
+  console.log("filePath: ", filePath);
   let dataBuffer = fs.readFileSync(filePath);
 
   pdf(dataBuffer).then(function (data) {
     const result = parse(data.text);
     console.log("data result: ", result);
 
-    fs.writeFileSync("./01-text.json", JSON.stringify(data.text));
-    fs.writeFileSync("../src/pages/api/01.json", JSON.stringify(result));
+    // fs.writeFileSync("./01-text.json", JSON.stringify(data.text));
+    fs.writeFileSync(
+      `./courses/${courseFileName}.json`,
+      JSON.stringify(result)
+    );
   });
 }
-main();
 
 const STARTSIGN = "中文 英文 K.K.音标";
 function parse(text) {

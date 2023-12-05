@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import courseData from './01.json'
+import courseData from '~/scripts/courses/01.json'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "GET") {

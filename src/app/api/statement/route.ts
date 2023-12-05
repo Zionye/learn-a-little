@@ -11,7 +11,8 @@
 //       chinese: '吃',
 //       english: 'eat',
 //       soundmark: '/it/',
-//       order: 1
+//       order: 1,
+//       courseId: "clpl5r2zh0000ul7t62rr4pum"
 //     }
 //   })
 
@@ -27,13 +28,35 @@
 
 
 // import type { NextApiRequest, NextApiResponse } from "next";
-// import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@prisma/client";
 // const prisma = new PrismaClient();
-import prisma from "~/lib/prismadb";
+// // import prisma from "~/lib/prismadb";
 
-export async function GET(req: Request) {
-    const statements = await prisma.statement.findMany();
-    return Response.json({statue: 1, data: statements})
+const datasourceUrl = process.env.DATABASE_URL;
+const prisma = new PrismaClient({
+  datasourceUrl,
+});
+
+export async function POST(req: Request) {
+  console.log('datasourceUrl', datasourceUrl);
+
+  // try{
+    const { order, chinese, english, soundmark, courseId } = await req.json()
+    const statement = await prisma.statement.create({
+      data: {
+        order,
+        chinese,
+        english,
+        soundmark,
+        courseId
+      }
+    })
+    return Response.json({statue: 1, data: statement})
+  // }catch(error: any){
+  //   console.error("Failed to create statement:", error)
+  //   return Response.json({statue: 0, error: error.message })
+  //   // return Response.json({statue: 0, error })
+  // }
 }
 
 // export default async function handler(req: NextApiRequest, res: NextApiResponse) {
