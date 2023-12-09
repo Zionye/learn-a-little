@@ -35,9 +35,8 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='flex flex-col'>
-          <div className='mb-20'></div>
-          <div className='mb-18 mt-20'>
+      <div className="flex flex-col">
+            <div className="mb-18">
             {/* <AuthContext session={session}> */}
               {children}
             {/* </AuthContext> */}

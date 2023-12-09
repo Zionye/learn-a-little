@@ -7,7 +7,8 @@ interface Statement{
   soundmark: string
 }
 interface CourseData{
-  id: number;
+  id: string;
+  title: string;
   statements: Statement[]
 }
 interface State{
@@ -30,7 +31,7 @@ export const useCourse = create<State>((set, get)=>({
 
       // TODO 先写死第一课的 courseId
       // 后续需要基于 courses 来获取
-      const firstCourseId = 'clpquf3wc0000ph7gwywpm4d8'
+      const firstCourseId = 'clpxio7p00000kx2pnesrrd7k'
       const response = await fetch(`/course/${firstCourseId}/api`);
 
       if (!response.ok) {
