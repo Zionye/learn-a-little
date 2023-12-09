@@ -12,12 +12,12 @@
   {
     "chinese": "它是",
     "english": "It is ",
-    "soundmark": "/ɪt/    /ɪz/"
+    "soundmark": "/ɪt/ /ɪz/"
   },
   {
     "chinese": "它是好的",
     "english": "It is good",
-    "soundmark": "/ɪt/    /ɪz/ /ɡʊd/"
+    "soundmark": "/ɪt/ /ɪz/ /ɡʊd/"
   },
   {
     "chinese": "重要的",
@@ -27,7 +27,7 @@
   {
     "chinese": "它是重要的",
     "english": "It is important",
-    "soundmark": "/ɪt/    /ɪz/ /ɪm'pɔrtnt/"
+    "soundmark": "/ɪt/ /ɪz/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "我",
@@ -127,7 +127,7 @@
   {
     "chinese": "星荣",
     "english": "",
-    "soundmark": "Xingrong"
+    "soundmark": "/Xingrong/"
   },
   {
     "chinese": "我是星荣",
@@ -462,12 +462,12 @@
   {
     "chinese": "必须做",
     "english": "have to do ",
-    "soundmark": "/hæv/ /tə/  /du/"
+    "soundmark": "/hæv/ /tə/ /du/"
   },
   {
     "chinese": "你必须做这件事情",
     "english": "You have to do it",
-    "soundmark": "/ju/ /hæv/ /tə/  /du/ /ɪt/"
+    "soundmark": "/ju/ /hæv/ /tə/ /du/ /ɪt/"
   },
   {
     "chinese": "每天",
@@ -477,7 +477,7 @@
   {
     "chinese": "你必须每天做这件事情",
     "english": "You have to do it every day",
-    "soundmark": "/ju/ /hæv/ /tə/  /du/ /ɪt/ /'ɛvri/ /de/"
+    "soundmark": "/ju/ /hæv/ /tə/ /du/ /ɪt/ /'ɛvri/ /de/"
   },
   {
     "chinese": "帮助",
@@ -602,7 +602,7 @@
   {
     "chinese": "你喜欢和我说话",
     "english": "You like to talk with me",
-    "soundmark": "/ju /laɪk/ /tə/ /tɔk/ /wɪð/ /mi/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /tɔk/ /wɪð/ /mi/"
   },
   {
     "chinese": "每天",
@@ -612,7 +612,7 @@
   {
     "chinese": "你喜欢每天和我说话",
     "english": "You like to talk with me every day",
-    "soundmark": "/ju /laɪk/ /tə/ /tɔk/ /wɪð/ /mi/ /'ɛvri/ /de/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /tɔk/ /wɪð/ /mi/ /'ɛvri/ /de/"
   },
   {
     "chinese": "在这里",
@@ -622,7 +622,7 @@
   {
     "chinese": "你喜欢在这里",
     "english": "You like to be here",
-    "soundmark": "/ju /laɪk/ /tə/ /bi/ /hɪr/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /bi/ /hɪr/"
   },
   {
     "chinese": "每天",
@@ -632,7 +632,7 @@
   {
     "chinese": "你喜欢每天在这里",
     "english": "You like to be here every day",
-    "soundmark": "/ju /laɪk/ /tə/ /bi/ /hɪr/ /'ɛvri/ /de/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /bi/ /hɪr/ /'ɛvri/ /de/"
   },
   {
     "chinese": "学习",
@@ -642,12 +642,12 @@
   {
     "chinese": "你喜欢学习",
     "english": "You like to study",
-    "soundmark": "/ju /laɪk/ /tə/ /'stʌdi/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /'stʌdi/"
   },
   {
     "chinese": "你喜欢每天学习",
     "english": "You like to study every day",
-    "soundmark": "/ju /laɪk/ /tə/ /'stʌdi/ /'ɛvri/ /de/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /'stʌdi/ /'ɛvri/ /de/"
   },
   {
     "chinese": "告诉",
@@ -777,12 +777,12 @@
   {
     "chinese": "她是",
     "english": "she is",
-    "soundmark": "/ʃi/    /ɪz/"
+    "soundmark": "/ʃi/ /ɪz/"
   },
   {
     "chinese": "你喜欢做这件事",
     "english": "you like to do it",
-    "soundmark": "/ju//laɪk/ /tə/ /du/ /ɪt/"
+    "soundmark": "/ju/ /laɪk/ /tə/ /du/ /ɪt/"
   },
   {
     "chinese": "你需要做这件事",

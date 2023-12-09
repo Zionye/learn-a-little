@@ -102,7 +102,7 @@
   {
     "chinese": "他们只是想要知道是否我打算，和你一起待在这里",
     "english": "they just want to know if I plan to stay here with you",
-    "soundmark": "/ðe/  /dʒʌst/  /wɑnt/  /tə/ /no/  /ɪf/  /aɪ/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /ju/"
+    "soundmark": "/ðe/ /dʒʌst/ /wɑnt/ /tə/ /no/ /ɪf/ /aɪ/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /ju/"
   },
   {
     "chinese": "原因",
@@ -122,7 +122,7 @@
   {
     "chinese": "他们只是想要知道原因为什么，我不打算和你一起待在这里",
     "english": "they just want to know the reason why I don't plan to stay here with you",
-    "soundmark": "/ðe/  /dʒʌst/  /wɑnt/  /tə/ /no/  /ðə/ /ˈrizən/ /waɪ/ /aɪ/ /dont/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /ju/"
+    "soundmark": "/ðe/ /dʒʌst/ /wɑnt/ /tə/ /no/ /ðə/ /ˈrizən/ /waɪ/ /aɪ/ /dont/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /ju/"
   },
   {
     "chinese": "你打算",
@@ -192,7 +192,7 @@
   {
     "chinese": "他们不打算和他一起待在这里",
     "english": "they  don't  plan  to  stay  here  with",
-    "soundmark": "/ðe/ /dont/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /hɪm/ him"
+    "soundmark": "/ðe/ /dont/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /hɪm/ /him/"
   },
   {
     "chinese": "和我们一起",
@@ -237,7 +237,7 @@
   {
     "chinese": "他不打算和他们一起待在这里",
     "english": "he  doesn't  plan  to  stay  here  with them",
-    "soundmark": "/hi/  /ˈdʌznt/  /plæn/  /tə/ /ste/  /hɪr/  /wɪð/ /ðəm/"
+    "soundmark": "/hi/ /ˈdʌznt/ /plæn/ /tə/ /ste/ /hɪr/ /wɪð/ /ðəm/"
   },
   {
     "chinese": "她打算",
@@ -327,7 +327,7 @@
   {
     "chinese": "我不打算明天晚上离开这里",
     "english": "I don't plan to leave here tomorrow night",
-    "soundmark": "/aɪ/ /dont/  /plæn/  /tə/ /liv/  /hɪr/  /tə'mɔro/ /naɪt/"
+    "soundmark": "/aɪ/ /dont/ /plæn/ /tə/ /liv/ /hɪr/ /tə'mɔro/ /naɪt/"
   },
   {
     "chinese": "离开",
@@ -422,12 +422,12 @@
   {
     "chinese": "她打算下个月离开这个国家",
     "english": "she plans to leave the country next month",
-    "soundmark": "/ʃi/  /plænz/  /tə/ /liv/  /ðə/ /'kʌntri/  /nɛkst/ /mʌnθ/"
+    "soundmark": "/ʃi/ /plænz/ /tə/ /liv/ /ðə/ /'kʌntri/ /nɛkst/ /mʌnθ/"
   },
   {
     "chinese": "她不打算下个月离开这个国家",
     "english": "she   doesn't   plan   to   leave   the country    next month",
-    "soundmark": "/ʃi/  /ˈdʌznt/ /plæn/  /tə/ /liv/  /ðə/ /'kʌntri/ /nɛkst/ /mʌnθ/"
+    "soundmark": "/ʃi/ /ˈdʌznt/ /plæn/ /tə/ /liv/ /ðə/ /'kʌntri/ /nɛkst/ /mʌnθ/"
   },
   {
     "chinese": "我们打算和他一起待在这里",
@@ -472,7 +472,7 @@
   {
     "chinese": "我们打算尽早离开这里",
     "english": "we  plan  to  leave  here  as  early  as possible",
-    "soundmark": "/wi/  /plæn/  /tə/ /liv/  /hɪr/ /əz/  /ˈɚli/  /əz/ /'pɑsəbl/"
+    "soundmark": "/wi/ /plæn/ /tə/ /liv/ /hɪr/ /əz/ /ˈɚli/ /əz/ /'pɑsəbl/"
   },
   {
     "chinese": "支付",
@@ -587,12 +587,12 @@
   {
     "chinese": "他不打算为我支付账单",
     "english": "he  doesn't  plan  to  pay  the  bill  for me",
-    "soundmark": "/hi/  /ˈdʌznt/  /plæn/  /tə/ /pe/  /ðə/ /bɪl/  /fɝ/ /mi/"
+    "soundmark": "/hi/ /ˈdʌznt/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /mi/"
   },
   {
     "chinese": "为他",
     "english": "for him",
-    "soundmark": "/fɝ//hɪm/"
+    "soundmark": "/fɝ/ /hɪm/"
   },
   {
     "chinese": "我打算为他支付账单",
@@ -602,7 +602,7 @@
   {
     "chinese": "我不打算为他支付账单",
     "english": "I don't plan to pay the bill for him",
-    "soundmark": "/aɪ//dont/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /hɪm/"
+    "soundmark": "/aɪ/ /dont/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /hɪm/"
   },
   {
     "chinese": "重要的",
@@ -637,7 +637,7 @@
   {
     "chinese": "我打算为他支付账单因为这件，事是非常重要的",
     "english": "I  plan  to  pay  the  bill  for  him because it is very important",
-    "soundmark": "/aɪ/ /plæn/  /tə/ /pe/  /ðə/ /bɪl/  /fɝ/ /hɪm/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
+    "soundmark": "/aɪ/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /hɪm/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "我需要",
@@ -667,7 +667,7 @@
   {
     "chinese": "我打算为他支付账单因为这件，事是非常重要的而且我需要做，这件事",
     "english": "I  plan  to  pay  the  bill  for  him because it is very important and I need to do it",
-    "soundmark": "/aɪ/ /plæn/  /tə/ /pe/  /ðə/ /bɪl/  /fɝ/ /hɪm/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /ənd/ /aɪ/ /nid/ /tə/ /du/ /ɪt/"
+    "soundmark": "/aɪ/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /hɪm/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /ənd/ /aɪ/ /nid/ /tə/ /du/ /ɪt/"
   },
   {
     "chinese": "为她",
@@ -682,7 +682,7 @@
   {
     "chinese": "他不打算为她支付账单",
     "english": "he  doesn't  plan  to  pay  the  bill  for her",
-    "soundmark": "/hi/ /ˈdʌznt/ /plæn/ /tə/ /pe/  /ðə/ /bɪl/  /fɝ/ /hɚ/"
+    "soundmark": "/hi/ /ˈdʌznt/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /hɚ/"
   },
   {
     "chinese": "我们打算",
@@ -712,7 +712,7 @@
   {
     "chinese": "我们不打算为他们支付账单",
     "english": "we  don't  plan  to  pay  the  bill  for them",
-    "soundmark": "/wi/  /dont/  /plæn/  /tə/ /pe/  /ðə/ /bɪl/  /fɝ/ /ðəm/"
+    "soundmark": "/wi/ /dont/ /plæn/ /tə/ /pe/ /ðə/ /bɪl/ /fɝ/ /ðəm/"
   },
   {
     "chinese": "旅行",
@@ -772,7 +772,7 @@
   {
     "chinese": "我不打算明年和你一起周游世，界",
     "english": "I don't plan to travel the world with you next year",
-    "soundmark": "/aɪ/ /dont/ /plæn/  /tə/ /'trævl/  /ðə/ /wɝld/ /wɪð/ /ju/ /nɛkst/ /jɪr/"
+    "soundmark": "/aɪ/ /dont/ /plæn/ /tə/ /'trævl/ /ðə/ /wɝld/ /wɪð/ /ju/ /nɛkst/ /jɪr/"
   },
   {
     "chinese": "和我一起",
@@ -787,7 +787,7 @@
   {
     "chinese": "你不打算明年和我一起周游世，界",
     "english": "you  don't plan  to  travel  the world with me next year",
-    "soundmark": "/ju/  /dont/  /plæn/  /tə/ /'trævl/  /ðə/ /wɝld/ /wɪð/ /mi/ /nɛkst/ /jɪr/"
+    "soundmark": "/ju/ /dont/ /plæn/ /tə/ /'trævl/ /ðə/ /wɝld/ /wɪð/ /mi/ /nɛkst/ /jɪr/"
   },
   {
     "chinese": "他打算",
@@ -802,7 +802,7 @@
   {
     "chinese": "他打算明年和她一起周游世界",
     "english": "he  plans  to  travel  the  world  with her next year",
-    "soundmark": "/hi/  /plænz/  /tə/ /'trævl/  /ðə/ /wɝld/  /wɪð/ /hɚ/ /nɛkst/ /jɪr/"
+    "soundmark": "/hi/ /plænz/ /tə/ /'trævl/ /ðə/ /wɝld/ /wɪð/ /hɚ/ /nɛkst/ /jɪr/"
   },
   {
     "chinese": "他不打算明年和她一起周游世，界",
@@ -862,7 +862,7 @@
   {
     "chinese": "你不愿意和我一起待在这里",
     "english": "you  would  not  like  to  stay  here with me",
-    "soundmark": "/ju/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /mi/"
+    "soundmark": "/ju/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /mi/"
   },
   {
     "chinese": "和他一起",
@@ -877,7 +877,7 @@
   {
     "chinese": "你不愿意和他一起待在这里",
     "english": "you  would  not  like  to  stay  here with him",
-    "soundmark": "/ju/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /hɪm/"
+    "soundmark": "/ju/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /hɪm/"
   },
   {
     "chinese": "我们愿意和他一起待在这里",
@@ -887,7 +887,7 @@
   {
     "chinese": "我们不愿意和他一起待在这里",
     "english": "we would not like to stay here with him",
-    "soundmark": "/wi/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /hɪm/"
+    "soundmark": "/wi/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /hɪm/"
   },
   {
     "chinese": "和她一起",
@@ -902,7 +902,7 @@
   {
     "chinese": "我们不愿意和她一起待在这里",
     "english": "we would not like to stay here with her",
-    "soundmark": "/wi/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /hɚ/"
+    "soundmark": "/wi/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /hɚ/"
   },
   {
     "chinese": "和他们一起",
@@ -917,7 +917,7 @@
   {
     "chinese": "我们不愿意和他们一起待在这，里",
     "english": "we would not like to stay here with them",
-    "soundmark": "/wi/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /ðəm/"
+    "soundmark": "/wi/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /ðəm/"
   },
   {
     "chinese": "他们愿意和她一起待在这里",
@@ -927,7 +927,7 @@
   {
     "chinese": "他们不愿意和她一起待在这里",
     "english": "they  would  not  like  to  stay  here with her",
-    "soundmark": "/ðe/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /hɚ/"
+    "soundmark": "/ðe/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /hɚ/"
   },
   {
     "chinese": "和我们一起",
@@ -942,7 +942,7 @@
   {
     "chinese": "他们不愿意和我们一起待在这，里",
     "english": "they would  not  like  to  stay  here with us",
-    "soundmark": "/ðe/  /wʊd/  /nɑt/  /laɪk/  /tə/ /ste/  /hɪr/  /wɪð/ /ʌs/"
+    "soundmark": "/ðe/ /wʊd/ /nɑt/ /laɪk/ /tə/ /ste/ /hɪr/ /wɪð/ /ʌs/"
   },
   {
     "chinese": "旅行",
@@ -972,7 +972,7 @@
   {
     "chinese": "我愿意和她一起环游世界",
     "english": "I  would  like  to  travel  the  world with her",
-    "soundmark": "/aɪ/ /wʊd/  /laɪk/  /tə/ /'trævl/  /ðə/ /wɝld/ /wɪð/ /hɚ/"
+    "soundmark": "/aɪ/ /wʊd/ /laɪk/ /tə/ /'trævl/ /ðə/ /wɝld/ /wɪð/ /hɚ/"
   },
   {
     "chinese": "我不愿意和她一起环游世界",
@@ -1032,7 +1032,7 @@
   {
     "chinese": "她愿意和他一起环游世界",
     "english": "she would like to travel the world with him",
-    "soundmark": "/ʃi/  /wʊd/  /laɪk/  /tə/ /'trævl/  /ðə/ /wɝld/ /wɪð/ /hɪm/"
+    "soundmark": "/ʃi/ /wʊd/ /laɪk/ /tə/ /'trævl/ /ðə/ /wɝld/ /wɪð/ /hɪm/"
   },
   {
     "chinese": "她不愿意和他一起环游世界",

@@ -62,7 +62,7 @@
   {
     "chinese": "我想要教你重要的某些东西",
     "english": "I  want  to  teach  you  something important",
-    "soundmark": "/aɪ/ /wɑnt/   /tə/ /titʃ/ /ju/   /'sʌmθɪŋ/ /ɪm'pɔrtnt/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /titʃ/ /ju/ /'sʌmθɪŋ/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "任何东西",
@@ -147,7 +147,7 @@
   {
     "chinese": "你不必教我如何使用字典",
     "english": "you don ́t have to teach me how to use the dictionary",
-    "soundmark": "/ju/  /dont/  /hæv/  /tə/ /titʃ/ /mi/  /haʊ/ /tə/ /juz/ /ðə/ /'dɪkʃənɛri/"
+    "soundmark": "/ju/ /dont/ /hæv/ /tə/ /titʃ/ /mi/ /haʊ/ /tə/ /juz/ /ðə/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "网络",
@@ -172,7 +172,7 @@
   {
     "chinese": "你不必教我如何使用网络",
     "english": "you don ́t have to teach me how to use the internet",
-    "soundmark": "/ju/  /dont/  /hæv/  /tə/ /titʃ/ /mi/  /haʊ/ /tə/ /juz/ /ði/ /ˈɪntərnɛt/"
+    "soundmark": "/ju/ /dont/ /hæv/ /tə/ /titʃ/ /mi/ /haʊ/ /tə/ /juz/ /ði/ /ˈɪntərnɛt/"
   },
   {
     "chinese": "做饭",
@@ -192,7 +192,7 @@
   {
     "chinese": "不需要",
     "english": "don't need",
-    "soundmark": "/dont/    /nid/"
+    "soundmark": "/dont/ /nid/"
   },
   {
     "chinese": "你不需要教我如何做饭",
@@ -407,7 +407,7 @@
   {
     "chinese": "你不必展示给我你的新房子",
     "english": "you  don ́t  have  to  show  me  your new house",
-    "soundmark": "/ju/  /dont/  /hæv/  /tə/ /ʃo/  /mi/  /jʊr/  /nu/ /haʊs/"
+    "soundmark": "/ju/ /dont/ /hæv/ /tə/ /ʃo/ /mi/ /jʊr/ /nu/ /haʊs/"
   },
   {
     "chinese": "手（复数）",
@@ -482,7 +482,7 @@
   {
     "chinese": "我想要让你知道关于我的事实",
     "english": "I  want  to  let  you  know  the  truth about me",
-    "soundmark": "/aɪ/ /wɑnt/  /tə/ /lɛt/  /ju/  /no/  /ðə/ /trʊθ/ /ə'baʊt/ /mi/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /lɛt/ /ju/ /no/ /ðə/ /trʊθ/ /ə'baʊt/ /mi/"
   },
   {
     "chinese": "我将会",
@@ -502,7 +502,7 @@
   {
     "chinese": "我将会让你知道关于我的事实",
     "english": "I will let you know the truth about me",
-    "soundmark": "/aɪ/ /wɪl/  /lɛt/  /ju/  /no/  /ðə/ /trʊθ/  /ə'baʊt/ /mi/"
+    "soundmark": "/aɪ/ /wɪl/ /lɛt/ /ju/ /no/ /ðə/ /trʊθ/ /ə'baʊt/ /mi/"
   },
   {
     "chinese": "下一个",
@@ -522,7 +522,7 @@
   {
     "chinese": "我下周将会让你知道关于我的，事实",
     "english": "I will let you know the truth about me next week",
-    "soundmark": "/aɪ/ /wɪl/  /lɛt/  /ju/  /no/  /ðə/ /trʊθ/  /ə'baʊt/ /mi/ /nɛkst/ /wik/"
+    "soundmark": "/aɪ/ /wɪl/ /lɛt/ /ju/ /no/ /ðə/ /trʊθ/ /ə'baʊt/ /mi/ /nɛkst/ /wik/"
   },
   {
     "chinese": "去",
@@ -642,7 +642,7 @@
   {
     "chinese": "我不想让你在晚上去外面因为，这件事是非常危险的而且我需，要你待在这里",
     "english": "I  don ́t  want  to  let  you  go  out  at night because it is very dangerous and I need you to stay here",
-    "soundmark": "/aɪ/ /dont/ /wɑnt/ /tə/ /lɛt/ /ju/ /ɡo/ /aʊt/ /ət/ /naɪt/  /bɪ'kɔz/  /ɪt/  /ɪz/  /ˈvɛri/  /'dendʒərəs/ /ənd/ /aɪ/ /nid/ /tə/ /ste/ /hɪr/"
+    "soundmark": "/aɪ/ /dont/ /wɑnt/ /tə/ /lɛt/ /ju/ /ɡo/ /aʊt/ /ət/ /naɪt/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /'dendʒərəs/ /ənd/ /aɪ/ /nid/ /tə/ /ste/ /hɪr/"
   },
   {
     "chinese": "父亲",
@@ -857,7 +857,7 @@
   {
     "chinese": "让我告诉你关于你的工作的某，些事情",
     "english": "let  me  tell  you  something  about your work",
-    "soundmark": "/lɛt/  /mi/  /tɛl/  /ju/  /'sʌmθɪŋ/  /ə'baʊt/  /jʊr/ /wɝk/"
+    "soundmark": "/lɛt/ /mi/ /tɛl/ /ju/ /'sʌmθɪŋ/ /ə'baʊt/ /jʊr/ /wɝk/"
   },
   {
     "chinese": "一个问题",

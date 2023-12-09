@@ -252,17 +252,17 @@
   {
     "chinese": "她想要",
     "english": "she wants",
-    "soundmark": "/ʃi/    /wɑnts/"
+    "soundmark": "/ʃi/ /wɑnts/"
   },
   {
     "chinese": "她想要解释原因",
     "english": "she wants to explain the reason",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "她需要",
     "english": "she needs",
-    "soundmark": "/ʃi/    /nidz/"
+    "soundmark": "/ʃi/ /nidz/"
   },
   {
     "chinese": "她现在需要吃这个食物",
@@ -277,7 +277,7 @@
   {
     "chinese": "她想要解释原因为什么她现，在需要吃这个食物",
     "english": "she wants to explain the reason why she needs to eat the food now",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /nidz/ /tə/ /it/ /ðə/ /fud/ /naʊ/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /nidz/ /tə/ /it/ /ðə/ /fud/ /naʊ/"
   },
   {
     "chinese": "问",
@@ -302,12 +302,12 @@
   {
     "chinese": "她想要",
     "english": "she wants",
-    "soundmark": "/ʃi/    /wɑnts/"
+    "soundmark": "/ʃi/ /wɑnts/"
   },
   {
     "chinese": "她想要问我一个问题",
     "english": "she wants to ask me a question",
-    "soundmark": "/ʃi/ /wɑnts/ /tə//æsk/ /mi//ə//'kwɛstʃən/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /æsk/ /mi/ /ə/ /'kwɛstʃən/"
   },
   {
     "chinese": "关于",
@@ -322,12 +322,12 @@
   {
     "chinese": "关于这个食物的一个问题",
     "english": "a question about the food",
-    "soundmark": "/ə/ /'kwɛstʃən/ /ə'baʊt/    /ðə/ /fud/"
+    "soundmark": "/ə/ /'kwɛstʃən/ /ə'baʊt/ /ðə/ /fud/"
   },
   {
     "chinese": "她想要问我关于这个食物的，一个问题",
     "english": "she wants to ask me a question about the food",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /æsk/ /mi/ /ə/ /'kwɛstʃən/ /ə'baʊt/ /ðə/ /fud/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /æsk/ /mi/ /ə/ /'kwɛstʃən/ /ə'baʊt/ /ðə/ /fud/"
   },
   {
     "chinese": "飞翔",
@@ -587,7 +587,7 @@
   {
     "chinese": "她必须解释原因",
     "english": "she has to explain the reason",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "阅读",
@@ -617,7 +617,7 @@
   {
     "chinese": "她必须解释原因为什么她喜，欢在家里阅读",
     "english": "she has to explain the reason why she likes to read at home",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
   },
   {
     "chinese": "她必须在家里阅读",
@@ -737,12 +737,12 @@
   {
     "chinese": "解释原因",
     "english": "to explain the reason ",
-    "soundmark": "/tə/ /ɪk'splen/    /ðə/ /ˈrizən/"
+    "soundmark": "/tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "她必须解释原因",
     "english": "she has to explain the reason",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "在家里阅读",
@@ -767,7 +767,7 @@
   {
     "chinese": "她必须解释原因为什么她喜，欢在家里阅读",
     "english": "she has to explain the reason why she likes to read at home",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
   },
   {
     "chinese": "重要的",
@@ -792,12 +792,12 @@
   {
     "chinese": "她必须解释原因，为什么她喜欢在家里阅读，因为它是非常重要的",
     "english": "she has to explain the reason why she likes to read at home because it is very important",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "她想要",
     "english": "she wants",
-    "soundmark": "/ʃi/    /wɑnts/"
+    "soundmark": "/ʃi/ /wɑnts/"
   },
   {
     "chinese": "见到",
@@ -807,7 +807,7 @@
   {
     "chinese": "她想要见到我",
     "english": "she wants to see me",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /si/ /mi/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /si/ /mi/"
   },
   {
     "chinese": "在这里",
@@ -832,7 +832,7 @@
   {
     "chinese": "她想要见到我所以我今天必，须在这里",
     "english": "she wants to see me so I have to be here today",
-    "soundmark": "/ʃi/   /wɑnts/ /tə/ /si/ /mi/ /so/ /aɪ/ /hæv/ /tə/ /bi/ /hɪr/ /tə'de/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /si/ /mi/ /so/ /aɪ/ /hæv/ /tə/ /bi/ /hɪr/ /tə'de/"
   },
   {
     "chinese": "我需要做这件事情",
@@ -857,7 +857,7 @@
   {
     "chinese": "它想要做这件事",
     "english": "it wants to do it",
-    "soundmark": "/ɪt/    /wɑnts/ /tə/ /du/ /ɪt/"
+    "soundmark": "/ɪt/ /wɑnts/ /tə/ /du/ /ɪt/"
   },
   {
     "chinese": "星荣必须做这件事",

@@ -147,7 +147,7 @@
   {
     "chinese": "我不想要你给我问题的答案",
     "english": "I  don't  want  you  to  give  me  the answer to the question",
-    "soundmark": "/aɪ/ /dont/  /wɑnt/  /ju/  /tə/ /ɡɪv/  /mi/  /ði/ /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
+    "soundmark": "/aɪ/ /dont/ /wɑnt/ /ju/ /tə/ /ɡɪv/ /mi/ /ði/ /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
   },
   {
     "chinese": "一个理由；一个原因",
@@ -187,12 +187,12 @@
   {
     "chinese": "我们应该知道问题的答案",
     "english": "we should know the answer to the question",
-    "soundmark": "/wi/   /ʃʊd/   /no/   /ði/   /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
+    "soundmark": "/wi/ /ʃʊd/ /no/ /ði/ /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
   },
   {
     "chinese": "我们不应该知道问题的答案",
     "english": "we should not know the answer to the question",
-    "soundmark": "/wi/  /ʃʊd/  /nɑt/  /no/  /ði/  /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
+    "soundmark": "/wi/ /ʃʊd/ /nɑt/ /no/ /ði/ /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
   },
   {
     "chinese": "为什么",
@@ -202,7 +202,7 @@
   {
     "chinese": "我需要你给我一个理由为什么，我们应该知道问题的答案",
     "english": "I need you to give me a reason why we should know the answer to the question",
-    "soundmark": "/aɪ/ /nid/ /ju/ /tə/ /ɡɪv/ /mi/ /ə/ /ˈrizən/ /waɪ/ /wi/   /ʃʊd/   /no/   /ði/   /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
+    "soundmark": "/aɪ/ /nid/ /ju/ /tə/ /ɡɪv/ /mi/ /ə/ /ˈrizən/ /waɪ/ /wi/ /ʃʊd/ /no/ /ði/ /'ænsɚ/ /tə/ /ðə/ /'kwɛstʃən/"
   },
   {
     "chinese": "电话",
@@ -247,7 +247,7 @@
   {
     "chinese": "我不可以给你我的电话号码",
     "english": "I  can  not  give  you  my  phone number",
-    "soundmark": "/aɪ/ /kæn/   /nɑt/   /ɡɪv/   /ju/   /maɪ/ /fon/ /'nʌmbɚ/"
+    "soundmark": "/aɪ/ /kæn/ /nɑt/ /ɡɪv/ /ju/ /maɪ/ /fon/ /'nʌmbɚ/"
   },
   {
     "chinese": "你想要",
@@ -267,7 +267,7 @@
   {
     "chinese": "你想要知道它",
     "english": "you want to know it",
-    "soundmark": "/ju//wɑnt/ /tə/ /no/ /ɪt/"
+    "soundmark": "/ju/ /wɑnt/ /tə/ /no/ /ɪt/"
   },
   {
     "chinese": "如果",
@@ -277,7 +277,7 @@
   {
     "chinese": "我可以给你我的电话号码如果，你想要知道它",
     "english": "I can give you my phone number if you want to know it",
-    "soundmark": "/aɪ/ /kæn/ /ɡɪv/ /ju/ /maɪ/ /fon/ /'nʌmbɚ/ /ɪf/ /ju//wɑnt/ /tə/ /no/ /ɪt/"
+    "soundmark": "/aɪ/ /kæn/ /ɡɪv/ /ju/ /maɪ/ /fon/ /'nʌmbɚ/ /ɪf/ /ju/ /wɑnt/ /tə/ /no/ /ɪt/"
   },
   {
     "chinese": "我将会",
@@ -342,7 +342,7 @@
   {
     "chinese": "你不应该给我你的电话号码",
     "english": "you should not give me your phone number",
-    "soundmark": "/ju/   /ʃʊd/   /nɑt/   /ɡɪv/   /mi/   /jʊr/   /fon/ /'nʌmbɚ/"
+    "soundmark": "/ju/ /ʃʊd/ /nɑt/ /ɡɪv/ /mi/ /jʊr/ /fon/ /'nʌmbɚ/"
   },
   {
     "chinese": "因为",
@@ -362,7 +362,7 @@
   {
     "chinese": "你应该给我你的电话号码因为，我需要知道它",
     "english": "you  should  give  me  your  phone number because I need to know it",
-    "soundmark": "/ju/   /ʃʊd/   /nɑt/   /ɡɪv/   /mi/   /jʊr/   /fon/ /'nʌmbɚ/ /bɪ'kɔz/ /aɪ/ /nid/ /tə/ /no/ /ɪt/"
+    "soundmark": "/ju/ /ʃʊd/ /nɑt/ /ɡɪv/ /mi/ /jʊr/ /fon/ /'nʌmbɚ/ /bɪ'kɔz/ /aɪ/ /nid/ /tə/ /no/ /ɪt/"
   },
   {
     "chinese": "他的",
@@ -387,7 +387,7 @@
   {
     "chinese": "你不应该给我他的电话号码",
     "english": "you should not give me his phone number",
-    "soundmark": "/ju/   /ʃʊd/   /nɑt/   /ɡɪv/   /mi/   /hɪz/   /fon/ /'nʌmbɚ/"
+    "soundmark": "/ju/ /ʃʊd/ /nɑt/ /ɡɪv/ /mi/ /hɪz/ /fon/ /'nʌmbɚ/"
   },
   {
     "chinese": "你可以给我他的电话号码",
@@ -407,7 +407,7 @@
   {
     "chinese": "我希望你可以给我他的电话号，码",
     "english": "I hope you can give me his phone number",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/  /hɪz/  /fon/ /'nʌmbɚ/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /hɪz/ /fon/ /'nʌmbɚ/"
   },
   {
     "chinese": "她的",
@@ -432,7 +432,7 @@
   {
     "chinese": "我希望你可以给我她的电话号，码",
     "english": "I hope you can give me her phone number",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/  /hɚ/ /fon/ /'nʌmbɚ/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /hɚ/ /fon/ /'nʌmbɚ/"
   },
   {
     "chinese": "重要的",
@@ -477,7 +477,7 @@
   {
     "chinese": "我希望你可以给我她的电话号，码因为这件事是非常重要的对，我来说",
     "english": "I hope you can give me her phone number    because    it    is    very important for me",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/  /hɚ/ /fon/ /'nʌmbɚ/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /hɚ/ /fon/ /'nʌmbɚ/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
   },
   {
     "chinese": "手",
@@ -527,7 +527,7 @@
   {
     "chinese": "我希望你可以给我搭把手因为，它是非常重要的对我来说",
     "english": "I  hope  you  can  give  me  a  hand because it is very important for me",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/  /ə/ /hænd/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /ə/ /hænd/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
   },
   {
     "chinese": "而且",
@@ -562,7 +562,7 @@
   {
     "chinese": "我希望你可以给我搭把手因为，它是非常重要的对我来说而且，我需要你现在帮助我",
     "english": "I  hope  you  can  give  me  a  hand because it is very important for me and I need you to help me now",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/  /ə/ /hænd/ /bɪ'kɔz/  /ɪt/  /ɪz/  /ˈvɛri/  /ɪm'pɔrtnt/  /fɝ/ /mi/ /ənd/ /aɪ/ /nid/ /ju/ /tə/ /hɛlp/ /mi/ /naʊ/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /ə/ /hænd/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/ /ənd/ /aɪ/ /nid/ /ju/ /tə/ /hɛlp/ /mi/ /naʊ/"
   },
   {
     "chinese": "建议",
@@ -597,7 +597,7 @@
   {
     "chinese": "我希望你可以给我一些建议",
     "english": "I  hope  you  can  give  me  some advice",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/   /səm/ /əd'vaɪs/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /səm/ /əd'vaɪs/"
   },
   {
     "chinese": "我的",
@@ -622,7 +622,7 @@
   {
     "chinese": "我希望你可以给我关于我的工，作的一些建议",
     "english": "I  hope  you  can  give  me  some advice about my work",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/   /səm/ /əd'vaɪs/ /ə'baʊt/ /maɪ/ /wɝk/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /səm/ /əd'vaɪs/ /ə'baʊt/ /maɪ/ /wɝk/"
   },
   {
     "chinese": "我可以给你一些建议",
@@ -652,7 +652,7 @@
   {
     "chinese": "我想要给你关于你的工作的一，些建议",
     "english": "I  want  to  give  you  some  advice about your work",
-    "soundmark": "/aɪ/ /wɑnt/  /tə/ /ɡɪv/  /ju/ /səm/  /əd'vaɪs/ /ə'baʊt/ /jʊr/ /wɝk/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /ɡɪv/ /ju/ /səm/ /əd'vaɪs/ /ə'baʊt/ /jʊr/ /wɝk/"
   },
   {
     "chinese": "我想要你给我一些建议",
@@ -692,7 +692,7 @@
   {
     "chinese": "我希望你可以给他关于他的工，作的一些建议",
     "english": "I  hope  you  can  give  him  some advice about his work",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /mi/   /səm/ /əd'vaɪs/ /ə'baʊt/ /hɪz/ /wɝk/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /mi/ /səm/ /əd'vaɪs/ /ə'baʊt/ /hɪz/ /wɝk/"
   },
   {
     "chinese": "她的",
@@ -712,7 +712,7 @@
   {
     "chinese": "我希望你可以给她关于她的工，作的一些建议",
     "english": "I  hope  you  can  give  her  some advice about her work",
-    "soundmark": "/aɪ/ /hop/  /ju/  /kæn/  /ɡɪv/  /hɚ/ /səm/ /əd'vaɪs/ /ə'baʊt/ /hɚ/ /wɝk/"
+    "soundmark": "/aɪ/ /hop/ /ju/ /kæn/ /ɡɪv/ /hɚ/ /səm/ /əd'vaɪs/ /ə'baʊt/ /hɚ/ /wɝk/"
   },
   {
     "chinese": "我希望她可以给我关于我的工，作的一些建议",
@@ -792,7 +792,7 @@
   {
     "chinese": "我不想要你使用我的字典",
     "english": "I   don't   want   you   to   use   my dictionary",
-    "soundmark": "/aɪ/ /dont/  /wɑnt/  /ju/  /tə/ /juz/  /maɪ/ /'dɪkʃənɛri/"
+    "soundmark": "/aɪ/ /dont/ /wɑnt/ /ju/ /tə/ /juz/ /maɪ/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "他的字典",
@@ -807,7 +807,7 @@
   {
     "chinese": "我不想要你使用他的字典",
     "english": "I   don't   want   you   to   use   his dictionary",
-    "soundmark": "/aɪ/ /dont/   /wɑnt/   /ju/   /tə/ /juz/   /hɪz/ /'dɪkʃənɛri/"
+    "soundmark": "/aɪ/ /dont/ /wɑnt/ /ju/ /tə/ /juz/ /hɪz/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "她的",
@@ -892,7 +892,7 @@
   {
     "chinese": "她不想要我使用她的字典",
     "english": "she  doesn't  want  me  to  use  her dictionary",
-    "soundmark": "/ʃi/  /ˈdʌznt/  /wɑnt/  /mi/  /tə/ /juz/  /hɚ/ /'dɪkʃənɛri/"
+    "soundmark": "/ʃi/ /ˈdʌznt/ /wɑnt/ /mi/ /tə/ /juz/ /hɚ/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "如何",
@@ -912,17 +912,17 @@
   {
     "chinese": "我需要知道如何使用字典",
     "english": "I  need  to  know  how  to  use  the dictionary",
-    "soundmark": "/aɪ/ /nid/  /tə/ /no/  /haʊ/ /tə/ /juz/  /ðə/ /'dɪkʃənɛri/"
+    "soundmark": "/aɪ/ /nid/ /tə/ /no/ /haʊ/ /tə/ /juz/ /ðə/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "我必须知道如何使用字典",
     "english": "I  have  to  know  how  to  use  the dictionary",
-    "soundmark": "/aɪ/ /hæv/  /tə/ /no/  /haʊ/ /tə/ /juz/  /ðə/ /'dɪkʃənɛri/"
+    "soundmark": "/aɪ/ /hæv/ /tə/ /no/ /haʊ/ /tə/ /juz/ /ðə/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "我想要知道如何使用字典",
     "english": "I  want  to  know  how  to  use  the dictionary",
-    "soundmark": "/aɪ/ /wɑnt/  /tə/ /no/  /haʊ/ /tə/ /juz/  /ðə/ /'dɪkʃənɛri/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /no/ /haʊ/ /tə/ /juz/ /ðə/ /'dɪkʃənɛri/"
   },
   {
     "chinese": "电话",

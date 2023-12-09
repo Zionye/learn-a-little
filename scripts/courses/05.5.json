@@ -272,7 +272,7 @@
   {
     "chinese": "我想要知道是否你今晚可以和，我说话",
     "english": "I want to know if you can talk with me tonight",
-    "soundmark": "/aɪ/ /wɑnt/ /tə/ /no/ /ɪf/ /ju/ /kæn/ /tɔk/ /wɪð/ /mi/    /tə'naɪt/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /no/ /ɪf/ /ju/ /kæn/ /tɔk/ /wɪð/ /mi/ /tə'naɪt/"
   },
   {
     "chinese": "它是重要的",
@@ -302,7 +302,7 @@
   {
     "chinese": "我想要知道是否你今晚可以和，我说话因为它是非常重要的对，我来说",
     "english": "I want to know if you can talk with me  tonight  because  it  is  very important for me",
-    "soundmark": "/aɪ/ /wɑnt/ /tə/ /no/ /ɪf/ /ju/ /kæn/ /tɔk/ /wɪð/ /mi/  /tə'naɪt/      /bɪ'kɔz/  /ɪt/  /ɪz/  /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
+    "soundmark": "/aɪ/ /wɑnt/ /tə/ /no/ /ɪf/ /ju/ /kæn/ /tɔk/ /wɪð/ /mi/ /tə'naɪt/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/"
   },
   {
     "chinese": "你",
@@ -392,12 +392,12 @@
   {
     "chinese": "我喜欢这个食物",
     "english": "I like the food",
-    "soundmark": "/aɪ/ /laɪk/    /ðə/ /fud/"
+    "soundmark": "/aɪ/ /laɪk/ /ðə/ /fud/"
   },
   {
     "chinese": "我不喜欢这个食物",
     "english": "I don't like the food",
-    "soundmark": "/aɪ/ /dont/ /laɪk/    /ðə/ /fud/"
+    "soundmark": "/aɪ/ /dont/ /laɪk/ /ðə/ /fud/"
   },
   {
     "chinese": "我想要",
@@ -572,12 +572,12 @@
   {
     "chinese": "她想要",
     "english": "she wants",
-    "soundmark": "/ʃi/    /wɑnts/"
+    "soundmark": "/ʃi/ /wɑnts/"
   },
   {
     "chinese": "她想要解释原因",
     "english": "she wants to explain the reason",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "吃这个食物",
@@ -597,7 +597,7 @@
   {
     "chinese": "她需要",
     "english": "she needs",
-    "soundmark": "/ʃi/    /nidz/"
+    "soundmark": "/ʃi/ /nidz/"
   },
   {
     "chinese": "她需要现在吃这个食物",
@@ -737,12 +737,12 @@
   {
     "chinese": "他必须告诉我事实因为它是非，常重要的对我来说而且我需要，知道这件事",
     "english": "He has to tell me the truth because it  is  very  important  for  me  and  I need to know it",
-    "soundmark": "/hi/  /hæz/  /tə/ /tɛl/  /mi/  /ðə/ /trʊθ/  /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/ /ənd/ /aɪ/ /nid/ /tə/ /no/ /ɪt/"
+    "soundmark": "/hi/ /hæz/ /tə/ /tɛl/ /mi/ /ðə/ /trʊθ/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/ /fɝ/ /mi/ /ənd/ /aɪ/ /nid/ /tə/ /no/ /ɪt/"
   },
   {
     "chinese": "她想要",
     "english": "she wants",
-    "soundmark": "/ʃi/  /wɑnts/"
+    "soundmark": "/ʃi/ /wɑnts/"
   },
   {
     "chinese": "见到",
@@ -752,7 +752,7 @@
   {
     "chinese": "她想要见到我",
     "english": "she wants to see me",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /si/ /mi/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /si/ /mi/"
   },
   {
     "chinese": "在这里",
@@ -777,7 +777,7 @@
   {
     "chinese": "她想要见到我所以，我今天必须在这里",
     "english": "She wants to see me so I have to be here today",
-    "soundmark": "/ʃi/    /wɑnts/ /tə/ /si/ /mi/ /so/ /aɪ/ /hæv/ /tə/ /bi/ /hɪr/ /tə'de/"
+    "soundmark": "/ʃi/ /wɑnts/ /tə/ /si/ /mi/ /so/ /aɪ/ /hæv/ /tə/ /bi/ /hɪr/ /tə'de/"
   },
   {
     "chinese": "解释",
@@ -792,12 +792,12 @@
   {
     "chinese": "解释原因",
     "english": "to explain the reason ",
-    "soundmark": "/tə/ /ɪk'splen/    /ðə/ /ˈrizən/"
+    "soundmark": "/tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "她必须解释原因",
     "english": "she has to explain the reason",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/"
   },
   {
     "chinese": "在家里阅读",
@@ -822,7 +822,7 @@
   {
     "chinese": "她必须解释原因为什么，她喜欢在家里阅读",
     "english": "she has to explain the reason why she likes to read at home",
-    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/    /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/"
   },
   {
     "chinese": "重要的",
@@ -847,7 +847,7 @@
   {
     "chinese": "她必须解释原因为什么她喜欢，在家里阅读因为这件事是非常，重要的",
     "english": "She has to explain the reason why she likes to read at home because it is very important",
-    "soundmark": "/ʃi/  /hæz/  /tə/ /ɪk'splen/  /ðə/ /ˈrizən/  /waɪ/ /ʃi/  /laɪks/    /tə/ /rid/  /ət/  /hom/    /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
+    "soundmark": "/ʃi/ /hæz/ /tə/ /ɪk'splen/ /ðə/ /ˈrizən/ /waɪ/ /ʃi/ /laɪks/ /tə/ /rid/ /ət/ /hom/ /bɪ'kɔz/ /ɪt/ /ɪz/ /ˈvɛri/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "他想要",
@@ -892,7 +892,7 @@
   {
     "chinese": "它是不紧急的",
     "english": "it is not urgent",
-    "soundmark": "/ɪt/ /ɪz//nɑt/ /'ɝdʒənt/"
+    "soundmark": "/ɪt/ /ɪz/ /nɑt/ /'ɝdʒənt/"
   },
   {
     "chinese": "因为",
@@ -902,7 +902,7 @@
   {
     "chinese": "他不想现在做这件事，因为它是不紧急的",
     "english": "He doesn't want to do it now because it is not urgent hi/",
-    "soundmark": "/ˈdʌznt/ /wɑnt/ /tə/ /du/ /ɪt/ /naʊ/ /bɪ'kɔz/ /ɪt/ /ɪz//nɑt/ /'ɝdʒənt/"
+    "soundmark": "/ˈdʌznt/ /wɑnt/ /tə/ /du/ /ɪt/ /naʊ/ /bɪ'kɔz/ /ɪt/ /ɪz/ /nɑt/ /'ɝdʒənt/"
   },
   {
     "chinese": "可以",
@@ -992,7 +992,7 @@
   {
     "chinese": "我将会在未来告诉你事实",
     "english": "I will tell you the truth in the future",
-    "soundmark": "/aɪ/ /wɪl/  /tɛl/  /ju/  /ðə/ /trʊθ/  /ɪn/  /ðə/ /'fjʊtʃɚ/"
+    "soundmark": "/aɪ/ /wɪl/ /tɛl/ /ju/ /ðə/ /trʊθ/ /ɪn/ /ðə/ /'fjʊtʃɚ/"
   },
   {
     "chinese": "我将不会在未来告诉你事实",
@@ -1017,7 +1017,7 @@
   {
     "chinese": "它是不重要的所以，我将会在未来告诉你事实",
     "english": "it is not important so I will tell you the truth in the future",
-    "soundmark": "/ɪt/  /ɪz/  /nɑt/  /ɪm'pɔrtnt/  /so/  /aɪ/ /wɪl/  /tɛl/ /ju/ /ðə/ /trʊθ/ /ɪn/ /ðə/ /'fjʊtʃɚ"
+    "soundmark": "/ɪt/ /ɪz/ /nɑt/ /ɪm'pɔrtnt/ /so/ /aɪ/ /wɪl/ /tɛl/ /ju/ /ðə/ /trʊθ/ /ɪn/ /ðə/ /'fjʊtʃɚ/"
   },
   {
     "chinese": "她可以",

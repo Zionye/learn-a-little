@@ -146,7 +146,23 @@ function parseEnglishAndSoundmark(text) {
   const soundmarkStartIndex = list.findIndex((t) => t.startsWith("/"));
 
   const english = list.slice(0, soundmarkStartIndex).join(" ");
-  const soundmark = list.slice(soundmarkStartIndex).join(" ");
+  // const soundmark = list.slice(soundmarkStartIndex).join(" ");
+  // 去掉音标中多余空格仅保留一个：
+  //   - "/wi/    /dont/    /nid/    /tə/ /'ænsɚ/ /ðə/ /'kwestʃənz/ /ə'baʊt/ /ðə/ /wɝk/"
+  //   - "/ju /laɪk/ /tə/ /tɔk/ /wɪð/ /mi/"
+  let rawSoundmark = list
+    .slice(soundmarkStartIndex)
+    .join(" ")
+    .split("/")
+    .map((t) => {
+      return t.trim().replace(/\s+/g, " ");
+    })
+    .filter((t) => {
+      return t !== "";
+    })
+    .toString();
+
+  const soundmark = `/${rawSoundmark.replace(/,/g, "/ /") + "/"}`;
 
   return {
     english,

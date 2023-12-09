@@ -22,7 +22,7 @@
   {
     "chinese": "我喜欢这个食物",
     "english": "I like the food",
-    "soundmark": "/aɪ/ /laɪk//ðə/ /fud/"
+    "soundmark": "/aɪ/ /laɪk/ /ðə/ /fud/"
   },
   {
     "chinese": "不",
@@ -42,7 +42,7 @@
   {
     "chinese": "我不喜欢这个食物",
     "english": "I don't like the food",
-    "soundmark": "/aɪ/ /dont/ /laɪk//ðə/ /fud/"
+    "soundmark": "/aɪ/ /dont/ /laɪk/ /ðə/ /fud/"
   },
   {
     "chinese": "做",
@@ -447,7 +447,7 @@
   {
     "chinese": "我今天不必吃这个食物",
     "english": "I don't have to eat the food today",
-    "soundmark": "/aɪ/ /dont/ /hæv/ /tə/ /it/ /ðə/ /fud/    /tə'de/"
+    "soundmark": "/aɪ/ /dont/ /hæv/ /tə/ /it/ /ðə/ /fud/ /tə'de/"
   },
   {
     "chinese": "明天",
@@ -467,7 +467,7 @@
   {
     "chinese": "我必须在这里",
     "english": "I have to be here",
-    "soundmark": "/aɪ/ /hæv//tə/ /bi/ /hɪr/"
+    "soundmark": "/aɪ/ /hæv/ /tə/ /bi/ /hɪr/"
   },
   {
     "chinese": "我今天必须在这里",
@@ -602,7 +602,7 @@
   {
     "chinese": "重要的某些事情",
     "english": "something important",
-    "soundmark": "/'sʌmθɪŋ//ɪm'pɔrtnt/"
+    "soundmark": "/'sʌmθɪŋ/ /ɪm'pɔrtnt/"
   },
   {
     "chinese": "我需要告诉你某些事情",
