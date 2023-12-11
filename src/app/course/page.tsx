@@ -1,5 +1,6 @@
 import React from 'react'
 import CourseCard from '@/components/CourseCard';
+import { toUrl } from '~/lib/utils';
 
 interface Course{
   id: string;
@@ -7,9 +8,10 @@ interface Course{
 }
 
 async function fetchCourses(): Promise<Course[]> {
-  const basePath = process.env.API_URL;
-  console.log('basePath: -->', basePath);
-  const response = await fetch(`${basePath}/course/api`);
+  // const basePath = process.env.API_URL;
+  // console.log('basePath: -->', process.env, basePath, `${basePath}/course/api`);
+  // const response = await fetch(`${basePath}/course/api`);
+  const response = await fetch(toUrl('/course/api'));
  
   if (!response.ok) {
     throw new Error('Failed to fetch data')
