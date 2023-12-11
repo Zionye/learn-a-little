@@ -16,14 +16,14 @@ interface State{
   currentCourse?: CourseData;
   currentStatement?: Statement;
   toNextStatement: ()=>void;
-  fetchCourse: (courseId: CourseData["id"])=> void;
+  fetchCourseById: (courseId: CourseData["id"])=> void;
   getCurrentStatement: ()=>Statement | undefined;
   checkCorrect: (input: string)=>boolean;
 }
 export const useCourse = create<State>((set, get)=>({
   statementIndex: 0,
   currentCourse: undefined,
-  async fetchCourse(courseId: CourseData["id"]){
+  async fetchCourseById(courseId: CourseData["id"]){
     // 拉取后端数据
     try {
       // 从 pdf.json 获取数据

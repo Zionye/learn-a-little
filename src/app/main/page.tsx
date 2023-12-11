@@ -12,7 +12,7 @@ export default function Home(){
   const [currentMode, setCurrentMode] = useState<'loading' | 'question' | 'answer'>('question')
 
   const { increaseFailedCount  } = useFailedCount()
-  const { currentCourse, toNextStatement, fetchCourse, getCurrentStatement, checkCorrect } = useCourse()
+  const { currentCourse, toNextStatement, fetchCourseById, getCurrentStatement, checkCorrect } = useCourse()
   // const { checkCorrect } = useActions(useCourse())
 
   // const currentStatement = getCurrentStatement()
@@ -21,7 +21,7 @@ export default function Home(){
     if(!currentCourse){
       console.log('???')
       const firstCourseId = 'clpxio7p00000kx2pnesrrd7k'
-      fetchCourse(firstCourseId)
+      fetchCourseById(firstCourseId)
     }
   }, []);
 

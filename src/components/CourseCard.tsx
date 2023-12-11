@@ -11,10 +11,10 @@ export interface Course {
 
 const CourseCard = ({course}: {course: Course})=>{
   const router = useRouter()
-  const fetchCourse = useCourse(state => state.fetchCourse)
+  const fetchCourseById = useCourse(state => state.fetchCourseById)
 
   const handleClick = async (courseId: string)=>{
-    await fetchCourse(courseId)
+    await fetchCourseById(courseId)
     router.push("/main")
   }
 

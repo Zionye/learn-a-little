@@ -21,12 +21,16 @@ export function cn(...inputs: ClassValue[]) {
 //   console.error(`无效的 NODE_ENV:${process.env.NODE_ENV}`);
 // }
 
-const baseUrl =
-  process.env.NODE_ENV === "production"
-    ? "https://learn-a-little.vercel.app"
-    : "http://localhost:3000";
 
-export function toUrl(url: string) {
-  console.log('toUrl: ', baseUrl + url);
-  return baseUrl + url;
+// const baseUrl =
+//   process.env.NODE_ENV === "production"
+//     ? "https://learn-a-little.vercel.app"
+//     : "http://localhost:3000";
+export function getFetchUrl(url: string) {
+  // return baseUrl + url;
+  return `${
+    process.env.NODE_ENV === "production"
+      ? process.env.VERCEL_URL!
+      : "http://localhost:3000"
+  }/${url}`
 }
