@@ -12,13 +12,17 @@ export default function Home(){
   const [currentMode, setCurrentMode] = useState<'loading' | 'question' | 'answer'>('question')
 
   const { increaseFailedCount  } = useFailedCount()
-  const { toNextStatement, fetchCourse, getCurrentStatement, checkCorrect } = useCourse()
+  const { currentCourse, toNextStatement, fetchCourse, getCurrentStatement, checkCorrect } = useCourse()
   // const { checkCorrect } = useActions(useCourse())
 
   // const currentStatement = getCurrentStatement()
 
   useEffect(() => {
-    fetchCourse()
+    if(!currentCourse){
+      console.log('???')
+      const firstCourseId = 'clpxio7p00000kx2pnesrrd7k'
+      fetchCourse(firstCourseId)
+    }
   }, []);
 
   const handleToNextStatement = ()=>{

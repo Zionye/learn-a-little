@@ -16,23 +16,20 @@ interface State{
   currentCourse?: CourseData;
   currentStatement?: Statement;
   toNextStatement: ()=>void;
-  fetchCourse: ()=> void;
+  fetchCourse: (courseId: CourseData["id"])=> void;
   getCurrentStatement: ()=>Statement | undefined;
   checkCorrect: (input: string)=>boolean;
 }
 export const useCourse = create<State>((set, get)=>({
   statementIndex: 0,
   currentCourse: undefined,
-  async fetchCourse(){
+  async fetchCourse(courseId: CourseData["id"]){
     // 拉取后端数据
     try {
       // 从 pdf.json 获取数据
       // const response = await fetch(`/api/course-pdf`);
-
-      // TODO 先写死第一课的 courseId
-      // 后续需要基于 courses 来获取
-      const firstCourseId = 'clpxio7p00000kx2pnesrrd7k'
-      const response = await fetch(`/course/${firstCourseId}/api`);
+      // 从 courses 来获取
+      const response = await fetch(`/course/${courseId}/api`);
 
       if (!response.ok) {
         throw new Error('Network response was not ok');

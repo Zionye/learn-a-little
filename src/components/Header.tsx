@@ -8,9 +8,9 @@ const Header = ()=>{
   return (
     <header className="container z-20 mx-auto w-full px-10 py-6">
       <div className="flex w-full flex-col items-center justify-between space-y-3 lg:flex-row lg:space-y-0">
-        <a
+        <Link
           className="flex items-center text-2xl font-bold text-fuchsia-500 no-underline hover:no-underline lg:text-4xl"
-          href="/"
+          href="/course"
         >
           <h1 className="flex items-center align-middle">
             {/* Image required properties: https://stackoverflow.com/questions/75781160/next-image-component-gives-error-missing-required-width-property-when-runni */}
@@ -19,7 +19,7 @@ const Header = ()=>{
             </section>
             <span>Learn English</span>
           </h1>
-        </a>
+        </Link>
         <nav className="my-card flex w-auto content-center items-center justify-end space-x-3 rounded-xl bg-white p-4 transition-colors duration-300 dark:bg-gray-800">
           <div className="relative">
             <div>

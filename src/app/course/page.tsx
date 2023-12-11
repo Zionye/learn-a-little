@@ -1,4 +1,5 @@
 import React from 'react'
+import CourseCard from '@/components/CourseCard';
 
 interface Course{
   id: string;
@@ -26,7 +27,9 @@ const Courses = async ()=>{
         <ul>
           {
             courses.map(course => {
-              return <li key={course.id}>{course.title}</li>
+              return <li key={course.id}>
+                <CourseCard course={course} />
+              </li>
             })
           }
         </ul>
