@@ -5,20 +5,20 @@
 const fs = require("fs");
 const { PrismaClient } = require("@prisma/client");
 const path = require("path");
-// const dotenv = require("dotenv");
+const dotenv = require("dotenv");
 
-// const isDev = process.env.NODE_ENV === "dev" || !process.env.NODE_ENV;
+const isDev = process.env.NODE_ENV === "dev" || !process.env.NODE_ENV;
 
-// if (isDev) {
-//   dotenv.config({
-//     path: path.resolve(__dirname, "../.env.local"),
-//     override: true,
-//   });
-// } else if (process.env.NODE_ENV === "prod") {
-//   dotenv.config({ path: path.resolve(__dirname, "../.env") });
-// } else {
-//   console.error(`无效的 NODE_ENV:${process.env.NODE_ENV}`);
-// }
+if (isDev) {
+  dotenv.config({
+    path: path.resolve(__dirname, "../.env.local"),
+    override: true,
+  });
+} else if (process.env.NODE_ENV === "prod") {
+  dotenv.config({ path: path.resolve(__dirname, "../.env") });
+} else {
+  console.error(`无效的 NODE_ENV:${process.env.NODE_ENV}`);
+}
 
 (async function () {
   const courses = JSON.parse(
