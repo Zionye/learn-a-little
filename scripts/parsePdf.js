@@ -10,7 +10,8 @@ const pdf = require("pdf-parse");
       return !fileName.startsWith(".");
     })
     .map((fileName) => {
-      return fileName.replace(".pdf", "");
+      // return fileName.replace(".pdf", "");
+      return path.basename(fileName, ".pdf");
     });
 
   for (const courseFile of courseFiles) {
