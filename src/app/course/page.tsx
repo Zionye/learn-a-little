@@ -1,19 +1,5 @@
 import React from 'react'
 import CourseCard from '@/components/CourseCard';
-import dotenv from "dotenv"
-import path from 'path';
-
-const isDev = process.env.NODE_ENV === "development" || !process.env.NODE_ENV;
-if (isDev) {
-  dotenv.config({
-    path: path.resolve(__dirname, "../.env.development"),
-    override: true,
-  });
-} else if (process.env.NODE_ENV === "production") {
-  dotenv.config({ path: path.resolve(__dirname, "../.env.production") });
-} else {
-  console.error(`无效的 NODE_ENV:${process.env.NODE_ENV}`);
-}
 
 interface Course{
   id: string;
@@ -21,7 +7,8 @@ interface Course{
 }
 
 async function fetchCourses(): Promise<Course[]> {
-  const basePath = process.env.BASE_PATH;
+  const basePath = process.env.API_URL;
+  console.log('basePath: -->', basePath);
   const response = await fetch(`${basePath}/course/api`);
  
   if (!response.ok) {
@@ -37,12 +24,18 @@ const Courses = async ()=>{
   const courses = await fetchCourses()
 
   return (
-    <div>
+    <div className='p-8'>
+      <div className="flex items-center hover:no-underline">
+        <h1 className='text-2xl font-bold text-fuchsia-500 lg:text-4xl'>
+          <span>Learn English</span>
+        </h1>
+      </div>
+
       <div>
-        <ul>
+        <ul className='flex flex-wrap'>
           {
             courses.map(course => {
-              return <li key={course.id}>
+              return <li className='p-8' key={course.id}>
                 <CourseCard course={course} />
               </li>
             })
